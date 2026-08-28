@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="jade">#0E9C8C</color>
+    <color name="ground_light">#E9F0EE</color>
+    <color name="ground_dark">#0A100F</color>
+    <color name="ic_launcher_background">#0E9C8C</color>
+</resources>

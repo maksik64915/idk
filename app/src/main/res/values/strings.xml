@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Гомін</string>
+    <string name="choose_photo">Оберіть фото</string>
+    <string name="perm_denied">Без доступу до камери й мікрофона дзвінки та голосові не працюватимуть</string>
+</resources>
