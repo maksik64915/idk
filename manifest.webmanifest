@@ -1,0 +1,38 @@
+{
+  "id": "./",
+  "name": "Гомін — месенджер",
+  "short_name": "Гомін",
+  "description": "Месенджер із прямим звʼязком між пристроями: повідомлення, фото, голосові, аудіо- та відеодзвінки.",
+  "lang": "uk",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#0A100F",
+  "theme_color": "#0E9C8C",
+  "categories": ["social", "communication"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Знайти людину",
+      "short_name": "Пошук",
+      "description": "Знайти друга за юзернеймом",
+      "url": "./?a=find",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Дзвінки",
+      "short_name": "Дзвінки",
+      "description": "Журнал дзвінків",
+      "url": "./?a=calls",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
